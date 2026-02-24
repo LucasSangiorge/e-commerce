@@ -1,0 +1,8 @@
+produto_id;nome_produto;categoria;preco
+1;Notebook;Eletronicos;4500.0
+2;Mouse;Eletronicos;120.0
+3;Teclado;Eletronicos;200.0
+4;Monitor;Eletronicos;1200.0
+5;Cadeira Gamer;Moveis;1500.0
+6;Headset;Eletronicos;350.0
+7;Webcam;Eletronicos;400.0

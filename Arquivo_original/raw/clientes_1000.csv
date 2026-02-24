@@ -1,0 +1,1001 @@
+cliente_id;nome;data_cadastro;idade;cidade;canal_aquisicao
+1;Cliente_1;2023-10-17;25;Sao Paulo;Facebook
+2;Cliente_2;2022-09-08;32;Rio de Janeiro;Instagram
+3;Cliente_3;2023-11-24;65;Porto Alegre;Instagram
+4;Cliente_4;2023-08-28;45;Sao Paulo;Instagram
+5;Cliente_5;2022-04-06;31;Rio de Janeiro;LinkedIn
+6;Cliente_6;2023-09-09;19;Porto Alegre;Google
+7;Cliente_7;2024-01-04;59;Campinas;LinkedIn
+8;Cliente_8;2023-03-06;32;Curitiba;LinkedIn
+9;Cliente_9;2022-10-12;69;Santos;Instagram
+10;Cliente_10;2024-02-17;69;Rio de Janeiro;Indicacao
+11;Cliente_11;2022-12-15;35;Rio de Janeiro;Google
+12;Cliente_12;2024-02-21;39;Sao Paulo;Instagram
+13;Cliente_13;2023-01-25;24;Belo Horizonte;Facebook
+14;Cliente_14;2023-09-11;34;Santos;Instagram
+15;Cliente_15;2024-01-18;47;Porto Alegre;Instagram
+16;Cliente_16;2023-01-23;23;Porto Alegre;Facebook
+17;Cliente_17;2024-04-29;58;Porto Alegre;Facebook
+18;Cliente_18;2023-08-15;30;Campinas;Instagram
+19;Cliente_19;2022-02-16;60;Rio de Janeiro;Facebook
+20;Cliente_20;2022-03-23;32;Santos;Instagram
+21;Cliente_21;2023-01-25;35;Curitiba;Facebook
+22;Cliente_22;2022-06-16;41;Belo Horizonte;Google
+23;Cliente_23;2023-11-18;35;Campinas;Instagram
+24;Cliente_24;2023-09-16;58;Rio de Janeiro;LinkedIn
+25;Cliente_25;2024-01-17;33;Rio de Janeiro;Indicacao
+26;Cliente_26;2023-01-24;35;Campinas;LinkedIn
+27;Cliente_27;2022-08-13;61;Belo Horizonte;Instagram
+28;Cliente_28;2022-08-23;70;Sao Paulo;Facebook
+29;Cliente_29;2023-02-15;35;Sao Paulo;Google
+30;Cliente_30;2023-08-04;63;Belo Horizonte;Google
+31;Cliente_31;2023-11-03;49;Curitiba;Indicacao
+32;Cliente_32;2022-05-27;34;Rio de Janeiro;Google
+33;Cliente_33;2024-02-02;53;Porto Alegre;Facebook
+34;Cliente_34;2024-02-04;55;Curitiba;LinkedIn
+35;Cliente_35;2023-02-13;41;Rio de Janeiro;Google
+36;Cliente_36;2023-06-06;49;Sao Paulo;Instagram
+37;Cliente_37;2024-05-31;25;Rio de Janeiro;Google
+38;Cliente_38;2024-03-22;61;Curitiba;LinkedIn
+39;Cliente_39;2022-03-07;42;Curitiba;LinkedIn
+40;Cliente_40;2023-04-25;51;Belo Horizonte;LinkedIn
+41;Cliente_41;2024-05-31;18;Campinas;Instagram
+42;Cliente_42;2023-11-30;52;Santos;Facebook
+43;Cliente_43;2024-02-27;59;Belo Horizonte;Instagram
+44;Cliente_44;2022-10-28;45;Rio de Janeiro;Indicacao
+45;Cliente_45;2022-01-04;64;Campinas;Facebook
+46;Cliente_46;2023-05-28;66;Rio de Janeiro;LinkedIn
+47;Cliente_47;2022-04-19;58;Belo Horizonte;LinkedIn
+48;Cliente_48;2023-09-16;30;Rio de Janeiro;Facebook
+49;Cliente_49;2024-02-20;28;Porto Alegre;LinkedIn
+50;Cliente_50;2022-01-01;56;Belo Horizonte;Indicacao
+51;Cliente_51;2022-01-20;25;Belo Horizonte;Facebook
+52;Cliente_52;2022-09-03;21;Rio de Janeiro;LinkedIn
+53;Cliente_53;2022-03-22;23;Campinas;Indicacao
+54;Cliente_54;2024-04-15;22;Santos;LinkedIn
+55;Cliente_55;2024-02-24;26;Rio de Janeiro;Indicacao
+56;Cliente_56;2023-07-17;28;Belo Horizonte;LinkedIn
+57;Cliente_57;2024-06-12;56;Curitiba;Google
+58;Cliente_58;2023-07-07;66;Campinas;Google
+59;Cliente_59;2024-01-01;37;Curitiba;Facebook
+60;Cliente_60;2023-03-25;51;Curitiba;Instagram
+61;Cliente_61;2022-09-11;32;Sao Paulo;Facebook
+62;Cliente_62;2022-01-22;55;Porto Alegre;Google
+63;Cliente_63;2023-08-26;32;Sao Paulo;Instagram
+64;Cliente_64;2023-12-26;58;Sao Paulo;Google
+65;Cliente_65;2022-03-11;20;Santos;Facebook
+66;Cliente_66;2022-03-14;50;Rio de Janeiro;Facebook
+67;Cliente_67;2023-11-17;49;Rio de Janeiro;LinkedIn
+68;Cliente_68;2022-05-16;64;Porto Alegre;LinkedIn
+69;Cliente_69;2023-04-30;33;Santos;Indicacao
+70;Cliente_70;2024-04-06;44;Rio de Janeiro;Instagram
+71;Cliente_71;2022-04-10;60;Curitiba;Facebook
+72;Cliente_72;2023-03-10;44;Curitiba;Instagram
+73;Cliente_73;2023-11-21;59;Campinas;Instagram
+74;Cliente_74;2022-03-04;43;Campinas;Facebook
+75;Cliente_75;2024-03-30;24;Rio de Janeiro;Google
+76;Cliente_76;2022-07-14;52;Curitiba;Google
+77;Cliente_77;2023-03-09;29;Belo Horizonte;Indicacao
+78;Cliente_78;2022-09-13;22;Curitiba;LinkedIn
+79;Cliente_79;2022-04-11;21;Campinas;LinkedIn
+80;Cliente_80;2024-05-06;18;Sao Paulo;Google
+81;Cliente_81;2022-06-20;44;Curitiba;Indicacao
+82;Cliente_82;2022-08-07;43;Sao Paulo;Google
+83;Cliente_83;2023-01-24;18;Curitiba;Facebook
+84;Cliente_84;2024-03-13;68;Curitiba;Facebook
+85;Cliente_85;2023-03-10;62;Campinas;LinkedIn
+86;Cliente_86;2023-11-09;63;Curitiba;Google
+87;Cliente_87;2022-07-14;36;Rio de Janeiro;Instagram
+88;Cliente_88;2023-08-17;65;Porto Alegre;Instagram
+89;Cliente_89;2024-02-05;38;Sao Paulo;Instagram
+90;Cliente_90;2023-08-22;48;Porto Alegre;LinkedIn
+91;Cliente_91;2022-06-11;21;Porto Alegre;Instagram
+92;Cliente_92;2024-05-21;29;Sao Paulo;LinkedIn
+93;Cliente_93;2022-03-11;61;Santos;Google
+94;Cliente_94;2023-02-18;25;Porto Alegre;Google
+95;Cliente_95;2023-08-16;56;Sao Paulo;LinkedIn
+96;Cliente_96;2022-03-25;44;Campinas;LinkedIn
+97;Cliente_97;2023-08-02;51;Belo Horizonte;Facebook
+98;Cliente_98;2022-07-29;60;Campinas;Facebook
+99;Cliente_99;2022-09-02;34;Curitiba;Google
+100;Cliente_100;2023-11-19;59;Belo Horizonte;Indicacao
+101;Cliente_101;2022-11-20;66;Sao Paulo;Instagram
+102;Cliente_102;2023-04-15;57;Porto Alegre;Instagram
+103;Cliente_103;2022-03-17;52;Rio de Janeiro;LinkedIn
+104;Cliente_104;2022-09-29;26;Belo Horizonte;Instagram
+105;Cliente_105;2024-06-19;33;Belo Horizonte;Facebook
+106;Cliente_106;2022-06-11;46;Santos;LinkedIn
+107;Cliente_107;2023-12-22;37;Porto Alegre;LinkedIn
+108;Cliente_108;2022-01-09;60;Santos;LinkedIn
+109;Cliente_109;2022-11-03;60;Sao Paulo;Google
+110;Cliente_110;2022-09-28;25;Sao Paulo;LinkedIn
+111;Cliente_111;2022-06-09;35;Belo Horizonte;LinkedIn
+112;Cliente_112;2022-08-04;63;Belo Horizonte;Google
+113;Cliente_113;2023-12-05;58;Santos;Facebook
+114;Cliente_114;2023-06-02;49;Belo Horizonte;Instagram
+115;Cliente_115;2022-04-05;58;Curitiba;Facebook
+116;Cliente_116;2022-02-15;18;Belo Horizonte;Google
+117;Cliente_117;2023-10-15;34;Rio de Janeiro;Indicacao
+118;Cliente_118;2023-07-19;63;Curitiba;LinkedIn
+119;Cliente_119;2022-01-10;25;Sao Paulo;Google
+120;Cliente_120;2023-07-13;20;Santos;Facebook
+121;Cliente_121;2023-08-20;53;Rio de Janeiro;Indicacao
+122;Cliente_122;2022-05-11;20;Belo Horizonte;Facebook
+123;Cliente_123;2024-03-26;20;Belo Horizonte;Google
+124;Cliente_124;2023-11-30;33;Campinas;Instagram
+125;Cliente_125;2022-12-29;67;Porto Alegre;Indicacao
+126;Cliente_126;2023-09-28;65;Rio de Janeiro;Google
+127;Cliente_127;2024-06-04;28;Santos;Google
+128;Cliente_128;2023-02-27;19;Rio de Janeiro;Facebook
+129;Cliente_129;2024-03-12;44;Santos;Google
+130;Cliente_130;2022-10-01;28;Santos;Instagram
+131;Cliente_131;2023-01-27;20;Santos;Indicacao
+132;Cliente_132;2022-08-16;30;Santos;Indicacao
+133;Cliente_133;2022-12-25;37;Santos;Google
+134;Cliente_134;2022-08-17;19;Campinas;Google
+135;Cliente_135;2023-02-13;39;Belo Horizonte;Instagram
+136;Cliente_136;2024-03-02;35;Belo Horizonte;LinkedIn
+137;Cliente_137;2023-02-14;61;Santos;LinkedIn
+138;Cliente_138;2022-12-06;19;Sao Paulo;Facebook
+139;Cliente_139;2022-07-02;55;Belo Horizonte;Instagram
+140;Cliente_140;2022-04-22;56;Curitiba;Facebook
+141;Cliente_141;2024-01-17;68;Belo Horizonte;Indicacao
+142;Cliente_142;2023-09-13;50;Sao Paulo;Indicacao
+143;Cliente_143;2023-08-14;30;Belo Horizonte;Instagram
+144;Cliente_144;2023-12-27;45;Sao Paulo;LinkedIn
+145;Cliente_145;2024-04-05;52;Campinas;Google
+146;Cliente_146;2023-01-08;45;Sao Paulo;Facebook
+147;Cliente_147;2023-10-01;38;Campinas;Instagram
+148;Cliente_148;2024-01-08;37;Porto Alegre;Facebook
+149;Cliente_149;2023-11-14;44;Belo Horizonte;Indicacao
+150;Cliente_150;2023-12-15;36;Porto Alegre;Google
+151;Cliente_151;2022-07-16;44;Campinas;Indicacao
+152;Cliente_152;2023-11-25;65;Rio de Janeiro;LinkedIn
+153;Cliente_153;2023-08-06;37;Curitiba;LinkedIn
+154;Cliente_154;2024-05-03;18;Belo Horizonte;Facebook
+155;Cliente_155;2022-08-04;45;Santos;LinkedIn
+156;Cliente_156;2023-09-14;59;Belo Horizonte;Indicacao
+157;Cliente_157;2023-03-29;46;Campinas;Google
+158;Cliente_158;2023-06-08;48;Santos;Google
+159;Cliente_159;2023-11-06;23;Belo Horizonte;LinkedIn
+160;Cliente_160;2023-11-11;58;Porto Alegre;Facebook
+161;Cliente_161;2022-04-06;70;Santos;Google
+162;Cliente_162;2023-11-20;37;Rio de Janeiro;Google
+163;Cliente_163;2022-05-31;19;Sao Paulo;Google
+164;Cliente_164;2023-05-02;57;Santos;Instagram
+165;Cliente_165;2023-04-12;44;Campinas;LinkedIn
+166;Cliente_166;2022-07-19;63;Campinas;Indicacao
+167;Cliente_167;2023-05-22;43;Rio de Janeiro;Google
+168;Cliente_168;2023-11-03;62;Sao Paulo;Instagram
+169;Cliente_169;2024-03-08;45;Rio de Janeiro;Google
+170;Cliente_170;2024-04-03;62;Porto Alegre;Indicacao
+171;Cliente_171;2022-02-21;53;Rio de Janeiro;Instagram
+172;Cliente_172;2023-04-13;26;Santos;Indicacao
+173;Cliente_173;2023-11-15;51;Porto Alegre;LinkedIn
+174;Cliente_174;2022-11-21;66;Curitiba;LinkedIn
+175;Cliente_175;2024-04-14;64;Porto Alegre;Indicacao
+176;Cliente_176;2024-04-30;53;Curitiba;Google
+177;Cliente_177;2024-02-01;48;Curitiba;Facebook
+178;Cliente_178;2024-02-09;33;Santos;Facebook
+179;Cliente_179;2024-02-24;67;Porto Alegre;Indicacao
+180;Cliente_180;2023-10-04;33;Belo Horizonte;Indicacao
+181;Cliente_181;2022-03-21;63;Belo Horizonte;Google
+182;Cliente_182;2022-10-06;39;Belo Horizonte;LinkedIn
+183;Cliente_183;2022-03-24;26;Rio de Janeiro;Google
+184;Cliente_184;2023-01-28;62;Rio de Janeiro;Google
+185;Cliente_185;2022-03-07;44;Curitiba;Facebook
+186;Cliente_186;2023-07-10;47;Curitiba;Instagram
+187;Cliente_187;2022-07-31;44;Curitiba;LinkedIn
+188;Cliente_188;2023-12-14;19;Santos;LinkedIn
+189;Cliente_189;2023-01-25;48;Sao Paulo;Facebook
+190;Cliente_190;2022-11-02;66;Curitiba;Indicacao
+191;Cliente_191;2023-07-06;65;Campinas;LinkedIn
+192;Cliente_192;2024-03-30;56;Rio de Janeiro;Indicacao
+193;Cliente_193;2022-08-13;35;Curitiba;Indicacao
+194;Cliente_194;2022-01-30;42;Belo Horizonte;Indicacao
+195;Cliente_195;2024-01-12;28;Santos;Indicacao
+196;Cliente_196;2022-05-11;57;Porto Alegre;Instagram
+197;Cliente_197;2023-02-08;55;Porto Alegre;Instagram
+198;Cliente_198;2022-03-27;59;Curitiba;Google
+199;Cliente_199;2024-06-06;47;Rio de Janeiro;Instagram
+200;Cliente_200;2022-09-24;42;Belo Horizonte;Google
+201;Cliente_201;2023-04-11;38;Belo Horizonte;Indicacao
+202;Cliente_202;2022-10-12;66;Santos;Indicacao
+203;Cliente_203;2022-09-16;23;Curitiba;Instagram
+204;Cliente_204;2024-02-07;52;Sao Paulo;Facebook
+205;Cliente_205;2022-08-18;59;Sao Paulo;Instagram
+206;Cliente_206;2024-02-12;19;Rio de Janeiro;Google
+207;Cliente_207;2024-05-09;19;Porto Alegre;Google
+208;Cliente_208;2022-09-02;26;Curitiba;Instagram
+209;Cliente_209;2023-08-01;31;Curitiba;Facebook
+210;Cliente_210;2024-02-25;41;Rio de Janeiro;LinkedIn
+211;Cliente_211;2023-09-14;65;Campinas;Instagram
+212;Cliente_212;2024-03-07;70;Rio de Janeiro;Facebook
+213;Cliente_213;2022-04-21;55;Sao Paulo;Facebook
+214;Cliente_214;2023-08-13;61;Curitiba;Indicacao
+215;Cliente_215;2024-01-03;30;Sao Paulo;LinkedIn
+216;Cliente_216;2023-12-09;58;Rio de Janeiro;Instagram
+217;Cliente_217;2023-12-15;67;Belo Horizonte;LinkedIn
+218;Cliente_218;2024-04-04;25;Santos;LinkedIn
+219;Cliente_219;2024-03-12;20;Belo Horizonte;LinkedIn
+220;Cliente_220;2023-03-15;60;Belo Horizonte;Instagram
+221;Cliente_221;2023-06-03;59;Belo Horizonte;Instagram
+222;Cliente_222;2024-05-19;44;Santos;Indicacao
+223;Cliente_223;2022-04-19;45;Belo Horizonte;Indicacao
+224;Cliente_224;2023-12-26;27;Curitiba;Google
+225;Cliente_225;2024-01-22;51;Campinas;Facebook
+226;Cliente_226;2023-09-23;69;Porto Alegre;Indicacao
+227;Cliente_227;2023-04-22;45;Santos;LinkedIn
+228;Cliente_228;2022-10-02;38;Santos;Google
+229;Cliente_229;2024-04-30;23;Belo Horizonte;Indicacao
+230;Cliente_230;2022-09-07;66;Curitiba;LinkedIn
+231;Cliente_231;2023-09-17;60;Curitiba;Facebook
+232;Cliente_232;2022-01-30;49;Santos;Facebook
+233;Cliente_233;2022-07-06;49;Rio de Janeiro;Facebook
+234;Cliente_234;2024-03-27;34;Belo Horizonte;Facebook
+235;Cliente_235;2023-09-03;62;Belo Horizonte;LinkedIn
+236;Cliente_236;2022-01-11;51;Rio de Janeiro;Instagram
+237;Cliente_237;2022-09-05;64;Curitiba;Indicacao
+238;Cliente_238;2023-07-23;66;Rio de Janeiro;Indicacao
+239;Cliente_239;2023-10-24;63;Curitiba;Indicacao
+240;Cliente_240;2024-03-22;19;Sao Paulo;Facebook
+241;Cliente_241;2022-08-15;43;Campinas;Google
+242;Cliente_242;2022-11-10;60;Porto Alegre;Facebook
+243;Cliente_243;2023-04-30;53;Porto Alegre;Facebook
+244;Cliente_244;2023-03-12;65;Porto Alegre;Facebook
+245;Cliente_245;2022-12-27;62;Curitiba;Facebook
+246;Cliente_246;2022-11-10;34;Rio de Janeiro;Instagram
+247;Cliente_247;2024-01-09;30;Belo Horizonte;Instagram
+248;Cliente_248;2024-01-31;52;Santos;Google
+249;Cliente_249;2022-07-16;31;Campinas;Indicacao
+250;Cliente_250;2022-10-11;64;Porto Alegre;LinkedIn
+251;Cliente_251;2023-09-04;36;Sao Paulo;Google
+252;Cliente_252;2022-10-31;32;Belo Horizonte;Google
+253;Cliente_253;2022-11-06;18;Campinas;LinkedIn
+254;Cliente_254;2022-05-10;35;Sao Paulo;Instagram
+255;Cliente_255;2023-07-21;36;Campinas;Google
+256;Cliente_256;2023-10-16;66;Curitiba;Instagram
+257;Cliente_257;2024-06-12;18;Porto Alegre;Facebook
+258;Cliente_258;2023-04-26;48;Curitiba;Facebook
+259;Cliente_259;2022-07-08;21;Belo Horizonte;Indicacao
+260;Cliente_260;2022-04-27;70;Sao Paulo;Indicacao
+261;Cliente_261;2023-05-19;22;Porto Alegre;Instagram
+262;Cliente_262;2022-06-05;27;Santos;LinkedIn
+263;Cliente_263;2022-11-08;23;Rio de Janeiro;Instagram
+264;Cliente_264;2023-07-26;66;Curitiba;LinkedIn
+265;Cliente_265;2023-09-03;68;Porto Alegre;Google
+266;Cliente_266;2024-03-05;51;Curitiba;Indicacao
+267;Cliente_267;2023-03-30;37;Santos;LinkedIn
+268;Cliente_268;2023-03-16;37;Porto Alegre;LinkedIn
+269;Cliente_269;2022-03-03;57;Campinas;Instagram
+270;Cliente_270;2024-02-21;31;Campinas;Google
+271;Cliente_271;2022-09-28;60;Sao Paulo;Google
+272;Cliente_272;2022-09-03;29;Porto Alegre;Instagram
+273;Cliente_273;2022-06-10;18;Curitiba;Indicacao
+274;Cliente_274;2023-12-07;56;Curitiba;Facebook
+275;Cliente_275;2022-02-03;32;Belo Horizonte;Facebook
+276;Cliente_276;2023-12-21;47;Sao Paulo;Google
+277;Cliente_277;2022-09-28;68;Santos;LinkedIn
+278;Cliente_278;2023-11-09;69;Rio de Janeiro;Indicacao
+279;Cliente_279;2022-04-28;52;Rio de Janeiro;Google
+280;Cliente_280;2022-09-30;70;Rio de Janeiro;Instagram
+281;Cliente_281;2022-03-03;28;Santos;Facebook
+282;Cliente_282;2023-09-02;65;Santos;LinkedIn
+283;Cliente_283;2022-10-23;46;Sao Paulo;Indicacao
+284;Cliente_284;2023-12-07;37;Campinas;Indicacao
+285;Cliente_285;2022-10-06;50;Porto Alegre;Indicacao
+286;Cliente_286;2023-03-25;23;Porto Alegre;Instagram
+287;Cliente_287;2023-03-19;65;Belo Horizonte;LinkedIn
+288;Cliente_288;2022-09-14;19;Sao Paulo;Google
+289;Cliente_289;2023-11-22;54;Porto Alegre;Instagram
+290;Cliente_290;2024-02-23;61;Santos;Facebook
+291;Cliente_291;2023-08-14;20;Santos;Google
+292;Cliente_292;2023-04-27;51;Campinas;Indicacao
+293;Cliente_293;2022-10-12;29;Porto Alegre;Indicacao
+294;Cliente_294;2023-10-13;70;Curitiba;Instagram
+295;Cliente_295;2023-04-27;40;Curitiba;Facebook
+296;Cliente_296;2022-11-25;60;Sao Paulo;Google
+297;Cliente_297;2022-12-04;44;Campinas;Indicacao
+298;Cliente_298;2022-10-23;60;Curitiba;LinkedIn
+299;Cliente_299;2022-02-07;47;Sao Paulo;Facebook
+300;Cliente_300;2022-09-16;38;Sao Paulo;Indicacao
+301;Cliente_301;2024-06-04;50;Santos;Instagram
+302;Cliente_302;2023-11-05;52;Curitiba;Indicacao
+303;Cliente_303;2022-02-25;30;Porto Alegre;Facebook
+304;Cliente_304;2023-09-30;66;Curitiba;Indicacao
+305;Cliente_305;2024-02-18;21;Rio de Janeiro;Facebook
+306;Cliente_306;2023-07-17;26;Belo Horizonte;Indicacao
+307;Cliente_307;2023-12-17;49;Sao Paulo;Instagram
+308;Cliente_308;2023-10-08;56;Santos;Google
+309;Cliente_309;2023-12-28;28;Belo Horizonte;LinkedIn
+310;Cliente_310;2022-01-15;53;Curitiba;Instagram
+311;Cliente_311;2022-08-19;25;Curitiba;Instagram
+312;Cliente_312;2023-10-26;27;Curitiba;Facebook
+313;Cliente_313;2023-06-06;63;Belo Horizonte;Indicacao
+314;Cliente_314;2024-05-04;48;Curitiba;Google
+315;Cliente_315;2023-04-13;53;Rio de Janeiro;Indicacao
+316;Cliente_316;2022-07-15;56;Porto Alegre;Google
+317;Cliente_317;2024-06-03;22;Belo Horizonte;Indicacao
+318;Cliente_318;2022-12-15;68;Porto Alegre;Facebook
+319;Cliente_319;2024-04-20;18;Belo Horizonte;Facebook
+320;Cliente_320;2024-05-07;55;Porto Alegre;Indicacao
+321;Cliente_321;2024-06-05;27;Curitiba;LinkedIn
+322;Cliente_322;2023-05-11;40;Belo Horizonte;LinkedIn
+323;Cliente_323;2024-02-21;52;Curitiba;Indicacao
+324;Cliente_324;2022-11-26;30;Campinas;Google
+325;Cliente_325;2023-08-09;42;Rio de Janeiro;Indicacao
+326;Cliente_326;2022-02-14;38;Campinas;Indicacao
+327;Cliente_327;2023-12-24;69;Curitiba;Indicacao
+328;Cliente_328;2023-11-11;68;Santos;Google
+329;Cliente_329;2023-05-23;20;Rio de Janeiro;LinkedIn
+330;Cliente_330;2023-08-28;39;Santos;Instagram
+331;Cliente_331;2024-06-14;46;Sao Paulo;LinkedIn
+332;Cliente_332;2023-04-13;18;Campinas;Google
+333;Cliente_333;2023-02-24;59;Rio de Janeiro;Instagram
+334;Cliente_334;2023-04-26;68;Belo Horizonte;Facebook
+335;Cliente_335;2023-10-01;62;Curitiba;Instagram
+336;Cliente_336;2024-05-22;39;Santos;LinkedIn
+337;Cliente_337;2023-01-25;38;Campinas;Indicacao
+338;Cliente_338;2024-06-12;52;Sao Paulo;LinkedIn
+339;Cliente_339;2022-03-12;33;Campinas;Facebook
+340;Cliente_340;2022-08-21;65;Sao Paulo;Indicacao
+341;Cliente_341;2022-04-11;66;Campinas;Instagram
+342;Cliente_342;2023-03-31;28;Campinas;Facebook
+343;Cliente_343;2022-01-30;20;Belo Horizonte;Instagram
+344;Cliente_344;2022-10-28;40;Belo Horizonte;Indicacao
+345;Cliente_345;2022-05-30;33;Porto Alegre;Indicacao
+346;Cliente_346;2023-08-03;61;Santos;Google
+347;Cliente_347;2022-06-24;29;Sao Paulo;LinkedIn
+348;Cliente_348;2024-06-10;42;Porto Alegre;Google
+349;Cliente_349;2023-05-25;55;Rio de Janeiro;Google
+350;Cliente_350;2023-04-18;58;Belo Horizonte;Indicacao
+351;Cliente_351;2022-09-19;60;Sao Paulo;Indicacao
+352;Cliente_352;2022-10-22;61;Porto Alegre;Google
+353;Cliente_353;2022-03-17;46;Belo Horizonte;LinkedIn
+354;Cliente_354;2022-11-03;58;Curitiba;Facebook
+355;Cliente_355;2023-04-13;37;Rio de Janeiro;Indicacao
+356;Cliente_356;2024-05-23;48;Sao Paulo;Google
+357;Cliente_357;2023-01-26;54;Belo Horizonte;LinkedIn
+358;Cliente_358;2022-10-30;62;Belo Horizonte;Instagram
+359;Cliente_359;2024-04-29;60;Curitiba;Facebook
+360;Cliente_360;2022-01-09;54;Santos;Instagram
+361;Cliente_361;2023-09-13;65;Curitiba;Facebook
+362;Cliente_362;2024-03-05;69;Rio de Janeiro;LinkedIn
+363;Cliente_363;2024-04-01;40;Rio de Janeiro;Google
+364;Cliente_364;2023-09-28;34;Campinas;Google
+365;Cliente_365;2023-10-06;24;Campinas;Instagram
+366;Cliente_366;2022-11-13;68;Curitiba;Instagram
+367;Cliente_367;2023-08-17;41;Campinas;Google
+368;Cliente_368;2022-04-03;36;Belo Horizonte;Indicacao
+369;Cliente_369;2022-06-29;30;Rio de Janeiro;LinkedIn
+370;Cliente_370;2024-06-16;41;Porto Alegre;LinkedIn
+371;Cliente_371;2022-10-07;28;Belo Horizonte;Indicacao
+372;Cliente_372;2024-04-05;36;Campinas;Facebook
+373;Cliente_373;2024-04-03;25;Curitiba;Instagram
+374;Cliente_374;2022-05-25;66;Rio de Janeiro;Indicacao
+375;Cliente_375;2024-05-16;69;Porto Alegre;Facebook
+376;Cliente_376;2022-04-03;68;Curitiba;Instagram
+377;Cliente_377;2022-09-28;52;Sao Paulo;Indicacao
+378;Cliente_378;2023-01-13;61;Campinas;Facebook
+379;Cliente_379;2023-08-22;42;Santos;Facebook
+380;Cliente_380;2022-04-21;61;Rio de Janeiro;Indicacao
+381;Cliente_381;2022-01-26;57;Porto Alegre;Facebook
+382;Cliente_382;2023-09-17;32;Campinas;Instagram
+383;Cliente_383;2023-10-13;70;Curitiba;Facebook
+384;Cliente_384;2023-10-27;44;Sao Paulo;Google
+385;Cliente_385;2022-02-16;20;Belo Horizonte;Indicacao
+386;Cliente_386;2022-04-29;24;Rio de Janeiro;LinkedIn
+387;Cliente_387;2022-05-19;42;Curitiba;Facebook
+388;Cliente_388;2023-11-18;65;Campinas;LinkedIn
+389;Cliente_389;2023-03-06;55;Campinas;Google
+390;Cliente_390;2023-03-01;59;Sao Paulo;Indicacao
+391;Cliente_391;2023-09-23;44;Belo Horizonte;Instagram
+392;Cliente_392;2023-12-08;41;Rio de Janeiro;Indicacao
+393;Cliente_393;2023-04-01;33;Santos;Facebook
+394;Cliente_394;2022-04-12;61;Belo Horizonte;LinkedIn
+395;Cliente_395;2023-10-23;40;Sao Paulo;Indicacao
+396;Cliente_396;2022-10-10;30;Sao Paulo;Indicacao
+397;Cliente_397;2022-04-04;60;Rio de Janeiro;LinkedIn
+398;Cliente_398;2022-01-22;21;Santos;Facebook
+399;Cliente_399;2022-09-07;26;Santos;LinkedIn
+400;Cliente_400;2022-07-30;22;Santos;LinkedIn
+401;Cliente_401;2022-08-01;55;Rio de Janeiro;Google
+402;Cliente_402;2022-12-03;67;Rio de Janeiro;LinkedIn
+403;Cliente_403;2022-01-03;35;Santos;Google
+404;Cliente_404;2022-05-14;52;Belo Horizonte;Google
+405;Cliente_405;2022-04-23;60;Santos;Instagram
+406;Cliente_406;2022-05-15;18;Belo Horizonte;Google
+407;Cliente_407;2023-08-26;38;Sao Paulo;Google
+408;Cliente_408;2022-09-29;21;Rio de Janeiro;Indicacao
+409;Cliente_409;2023-06-23;25;Campinas;Instagram
+410;Cliente_410;2023-05-03;46;Santos;Facebook
+411;Cliente_411;2023-06-10;55;Sao Paulo;Indicacao
+412;Cliente_412;2023-05-31;32;Porto Alegre;Instagram
+413;Cliente_413;2024-01-15;68;Santos;LinkedIn
+414;Cliente_414;2022-11-05;47;Campinas;Instagram
+415;Cliente_415;2022-03-04;48;Santos;Indicacao
+416;Cliente_416;2023-03-13;61;Sao Paulo;Indicacao
+417;Cliente_417;2023-12-31;46;Sao Paulo;Instagram
+418;Cliente_418;2022-11-26;56;Rio de Janeiro;Instagram
+419;Cliente_419;2022-05-10;35;Porto Alegre;LinkedIn
+420;Cliente_420;2023-07-16;63;Belo Horizonte;Indicacao
+421;Cliente_421;2023-09-04;51;Belo Horizonte;Indicacao
+422;Cliente_422;2023-06-02;56;Curitiba;Instagram
+423;Cliente_423;2024-03-23;62;Sao Paulo;LinkedIn
+424;Cliente_424;2024-01-09;31;Curitiba;Indicacao
+425;Cliente_425;2022-08-22;44;Belo Horizonte;Indicacao
+426;Cliente_426;2023-02-13;44;Campinas;Instagram
+427;Cliente_427;2022-11-17;45;Belo Horizonte;Facebook
+428;Cliente_428;2023-01-19;27;Campinas;Indicacao
+429;Cliente_429;2022-03-10;23;Santos;Instagram
+430;Cliente_430;2022-04-06;45;Sao Paulo;Facebook
+431;Cliente_431;2024-04-11;26;Porto Alegre;Instagram
+432;Cliente_432;2023-08-24;53;Porto Alegre;Facebook
+433;Cliente_433;2023-11-18;25;Curitiba;Facebook
+434;Cliente_434;2024-06-13;60;Santos;Indicacao
+435;Cliente_435;2024-06-07;64;Sao Paulo;Facebook
+436;Cliente_436;2023-09-07;37;Belo Horizonte;Instagram
+437;Cliente_437;2023-08-15;50;Rio de Janeiro;Google
+438;Cliente_438;2023-11-04;48;Rio de Janeiro;Instagram
+439;Cliente_439;2022-12-25;53;Belo Horizonte;Instagram
+440;Cliente_440;2024-02-20;35;Porto Alegre;Google
+441;Cliente_441;2024-04-06;45;Santos;LinkedIn
+442;Cliente_442;2024-02-25;70;Porto Alegre;LinkedIn
+443;Cliente_443;2023-11-23;59;Porto Alegre;Instagram
+444;Cliente_444;2023-09-16;60;Santos;Facebook
+445;Cliente_445;2022-01-30;29;Belo Horizonte;Facebook
+446;Cliente_446;2022-12-14;40;Sao Paulo;Google
+447;Cliente_447;2024-06-09;27;Porto Alegre;Indicacao
+448;Cliente_448;2022-03-13;27;Campinas;Instagram
+449;Cliente_449;2022-04-04;65;Porto Alegre;Google
+450;Cliente_450;2023-01-21;44;Curitiba;Facebook
+451;Cliente_451;2022-06-11;41;Belo Horizonte;Facebook
+452;Cliente_452;2024-03-06;54;Porto Alegre;Instagram
+453;Cliente_453;2022-02-23;27;Rio de Janeiro;LinkedIn
+454;Cliente_454;2022-02-20;61;Sao Paulo;Facebook
+455;Cliente_455;2023-03-30;60;Curitiba;Indicacao
+456;Cliente_456;2023-09-14;46;Curitiba;Facebook
+457;Cliente_457;2022-08-09;66;Porto Alegre;Instagram
+458;Cliente_458;2022-12-20;45;Sao Paulo;Facebook
+459;Cliente_459;2023-11-26;61;Porto Alegre;Indicacao
+460;Cliente_460;2023-06-24;60;Belo Horizonte;Instagram
+461;Cliente_461;2022-08-14;43;Porto Alegre;Instagram
+462;Cliente_462;2022-01-08;31;Belo Horizonte;Google
+463;Cliente_463;2024-02-25;26;Santos;Facebook
+464;Cliente_464;2022-10-24;38;Sao Paulo;Instagram
+465;Cliente_465;2023-05-25;65;Curitiba;Google
+466;Cliente_466;2022-05-13;42;Porto Alegre;Google
+467;Cliente_467;2023-05-28;53;Santos;Facebook
+468;Cliente_468;2022-03-15;43;Santos;Instagram
+469;Cliente_469;2023-03-23;19;Curitiba;Instagram
+470;Cliente_470;2024-06-01;38;Porto Alegre;Indicacao
+471;Cliente_471;2023-08-11;43;Campinas;Indicacao
+472;Cliente_472;2022-10-24;25;Curitiba;Instagram
+473;Cliente_473;2022-11-29;28;Santos;LinkedIn
+474;Cliente_474;2023-04-17;62;Belo Horizonte;Instagram
+475;Cliente_475;2023-03-24;24;Rio de Janeiro;Indicacao
+476;Cliente_476;2023-08-27;43;Porto Alegre;Instagram
+477;Cliente_477;2023-02-10;37;Campinas;Facebook
+478;Cliente_478;2022-08-15;39;Santos;Google
+479;Cliente_479;2022-03-20;50;Campinas;Instagram
+480;Cliente_480;2023-06-28;50;Rio de Janeiro;Facebook
+481;Cliente_481;2022-12-26;64;Santos;Google
+482;Cliente_482;2022-08-30;24;Rio de Janeiro;Facebook
+483;Cliente_483;2022-07-22;29;Porto Alegre;Google
+484;Cliente_484;2024-02-18;66;Campinas;Instagram
+485;Cliente_485;2022-07-01;67;Campinas;Indicacao
+486;Cliente_486;2023-04-21;66;Porto Alegre;LinkedIn
+487;Cliente_487;2023-04-05;61;Porto Alegre;LinkedIn
+488;Cliente_488;2022-11-27;58;Belo Horizonte;Google
+489;Cliente_489;2023-03-27;22;Curitiba;Indicacao
+490;Cliente_490;2023-10-09;37;Santos;Facebook
+491;Cliente_491;2023-08-29;21;Belo Horizonte;LinkedIn
+492;Cliente_492;2022-03-17;37;Curitiba;Indicacao
+493;Cliente_493;2022-02-08;21;Belo Horizonte;Facebook
+494;Cliente_494;2022-03-20;59;Santos;Instagram
+495;Cliente_495;2023-09-22;56;Porto Alegre;Indicacao
+496;Cliente_496;2023-04-19;55;Porto Alegre;Instagram
+497;Cliente_497;2023-04-06;69;Porto Alegre;Google
+498;Cliente_498;2022-11-26;56;Curitiba;LinkedIn
+499;Cliente_499;2022-06-04;21;Curitiba;Instagram
+500;Cliente_500;2024-04-10;39;Campinas;Instagram
+501;Cliente_501;2023-06-01;59;Rio de Janeiro;Instagram
+502;Cliente_502;2022-09-11;63;Curitiba;Indicacao
+503;Cliente_503;2023-06-21;51;Porto Alegre;Google
+504;Cliente_504;2023-01-08;41;Belo Horizonte;Indicacao
+505;Cliente_505;2023-02-23;67;Belo Horizonte;LinkedIn
+506;Cliente_506;2022-02-23;68;Campinas;Facebook
+507;Cliente_507;2022-03-09;39;Sao Paulo;LinkedIn
+508;Cliente_508;2023-11-26;42;Belo Horizonte;Facebook
+509;Cliente_509;2024-01-12;60;Porto Alegre;Google
+510;Cliente_510;2022-12-08;23;Porto Alegre;Google
+511;Cliente_511;2022-12-25;37;Campinas;Indicacao
+512;Cliente_512;2022-05-13;56;Campinas;Instagram
+513;Cliente_513;2022-11-14;53;Curitiba;Facebook
+514;Cliente_514;2024-04-12;26;Campinas;LinkedIn
+515;Cliente_515;2022-04-06;59;Campinas;Indicacao
+516;Cliente_516;2023-06-05;41;Sao Paulo;Facebook
+517;Cliente_517;2022-11-13;29;Rio de Janeiro;Facebook
+518;Cliente_518;2024-02-24;49;Rio de Janeiro;Google
+519;Cliente_519;2022-05-21;27;Sao Paulo;Facebook
+520;Cliente_520;2024-05-14;68;Sao Paulo;LinkedIn
+521;Cliente_521;2024-02-29;52;Santos;LinkedIn
+522;Cliente_522;2022-02-08;60;Belo Horizonte;LinkedIn
+523;Cliente_523;2022-05-15;56;Curitiba;Google
+524;Cliente_524;2022-06-16;29;Santos;LinkedIn
+525;Cliente_525;2024-04-08;28;Campinas;Indicacao
+526;Cliente_526;2022-02-14;44;Belo Horizonte;Google
+527;Cliente_527;2023-03-31;57;Belo Horizonte;Indicacao
+528;Cliente_528;2022-08-28;52;Rio de Janeiro;Facebook
+529;Cliente_529;2024-04-08;68;Curitiba;Google
+530;Cliente_530;2023-01-12;61;Porto Alegre;Indicacao
+531;Cliente_531;2023-04-18;67;Belo Horizonte;Indicacao
+532;Cliente_532;2023-05-30;51;Curitiba;Google
+533;Cliente_533;2024-04-16;30;Santos;LinkedIn
+534;Cliente_534;2022-05-22;34;Sao Paulo;Indicacao
+535;Cliente_535;2024-06-14;41;Porto Alegre;Instagram
+536;Cliente_536;2023-12-30;51;Santos;Instagram
+537;Cliente_537;2022-10-19;23;Santos;Google
+538;Cliente_538;2022-10-07;46;Porto Alegre;Google
+539;Cliente_539;2024-04-30;45;Sao Paulo;Google
+540;Cliente_540;2024-04-16;46;Belo Horizonte;Instagram
+541;Cliente_541;2023-03-01;21;Curitiba;LinkedIn
+542;Cliente_542;2023-01-18;33;Curitiba;Instagram
+543;Cliente_543;2023-01-19;32;Sao Paulo;Facebook
+544;Cliente_544;2022-04-12;63;Campinas;Facebook
+545;Cliente_545;2024-03-21;27;Rio de Janeiro;Instagram
+546;Cliente_546;2022-10-21;48;Campinas;Google
+547;Cliente_547;2024-02-17;63;Curitiba;Indicacao
+548;Cliente_548;2023-09-23;18;Sao Paulo;Instagram
+549;Cliente_549;2022-09-20;31;Santos;Google
+550;Cliente_550;2023-07-16;64;Porto Alegre;LinkedIn
+551;Cliente_551;2023-03-10;25;Santos;Facebook
+552;Cliente_552;2022-09-01;37;Sao Paulo;Instagram
+553;Cliente_553;2022-09-02;44;Campinas;LinkedIn
+554;Cliente_554;2023-04-14;22;Sao Paulo;Indicacao
+555;Cliente_555;2023-09-04;52;Sao Paulo;LinkedIn
+556;Cliente_556;2023-08-12;33;Campinas;Google
+557;Cliente_557;2022-10-26;45;Sao Paulo;LinkedIn
+558;Cliente_558;2022-12-28;33;Porto Alegre;Indicacao
+559;Cliente_559;2022-07-11;60;Campinas;Instagram
+560;Cliente_560;2023-06-21;41;Sao Paulo;LinkedIn
+561;Cliente_561;2023-07-12;50;Santos;LinkedIn
+562;Cliente_562;2023-07-22;19;Curitiba;Indicacao
+563;Cliente_563;2022-02-14;58;Curitiba;Facebook
+564;Cliente_564;2022-09-17;65;Sao Paulo;Facebook
+565;Cliente_565;2024-03-18;22;Belo Horizonte;Google
+566;Cliente_566;2024-01-21;60;Campinas;Instagram
+567;Cliente_567;2024-03-01;55;Campinas;Facebook
+568;Cliente_568;2022-05-17;20;Belo Horizonte;LinkedIn
+569;Cliente_569;2022-12-13;70;Campinas;Google
+570;Cliente_570;2024-04-30;67;Campinas;Indicacao
+571;Cliente_571;2023-12-14;48;Campinas;Google
+572;Cliente_572;2024-04-10;26;Sao Paulo;Indicacao
+573;Cliente_573;2022-02-07;36;Rio de Janeiro;Instagram
+574;Cliente_574;2024-03-21;30;Sao Paulo;Facebook
+575;Cliente_575;2022-11-14;50;Curitiba;LinkedIn
+576;Cliente_576;2023-04-30;34;Sao Paulo;Google
+577;Cliente_577;2022-10-20;40;Santos;Instagram
+578;Cliente_578;2024-06-05;59;Belo Horizonte;Facebook
+579;Cliente_579;2022-05-08;69;Belo Horizonte;Indicacao
+580;Cliente_580;2023-02-14;65;Curitiba;Indicacao
+581;Cliente_581;2022-12-14;29;Curitiba;Indicacao
+582;Cliente_582;2023-01-12;69;Porto Alegre;Facebook
+583;Cliente_583;2024-03-31;23;Campinas;Indicacao
+584;Cliente_584;2022-03-22;45;Porto Alegre;Google
+585;Cliente_585;2023-07-13;36;Belo Horizonte;Instagram
+586;Cliente_586;2022-03-23;38;Campinas;Facebook
+587;Cliente_587;2022-11-10;46;Porto Alegre;Indicacao
+588;Cliente_588;2022-06-20;62;Curitiba;Facebook
+589;Cliente_589;2023-04-03;20;Campinas;Facebook
+590;Cliente_590;2023-09-22;45;Belo Horizonte;Instagram
+591;Cliente_591;2022-03-18;60;Campinas;Indicacao
+592;Cliente_592;2023-01-08;50;Santos;Google
+593;Cliente_593;2022-02-01;27;Santos;LinkedIn
+594;Cliente_594;2023-11-26;68;Curitiba;Instagram
+595;Cliente_595;2022-05-10;22;Rio de Janeiro;Facebook
+596;Cliente_596;2023-01-06;42;Porto Alegre;Instagram
+597;Cliente_597;2023-09-12;27;Campinas;Indicacao
+598;Cliente_598;2023-01-15;41;Curitiba;Instagram
+599;Cliente_599;2023-08-11;26;Porto Alegre;Facebook
+600;Cliente_600;2023-02-12;38;Campinas;Facebook
+601;Cliente_601;2022-09-13;25;Sao Paulo;Google
+602;Cliente_602;2023-05-27;51;Curitiba;LinkedIn
+603;Cliente_603;2022-05-01;34;Santos;Facebook
+604;Cliente_604;2023-12-22;46;Rio de Janeiro;LinkedIn
+605;Cliente_605;2022-10-20;62;Curitiba;Google
+606;Cliente_606;2022-05-06;26;Santos;Instagram
+607;Cliente_607;2023-04-08;29;Campinas;Indicacao
+608;Cliente_608;2022-03-31;69;Campinas;Facebook
+609;Cliente_609;2023-11-15;40;Campinas;Instagram
+610;Cliente_610;2023-07-18;52;Belo Horizonte;Facebook
+611;Cliente_611;2024-05-21;28;Campinas;Google
+612;Cliente_612;2024-03-23;41;Porto Alegre;Google
+613;Cliente_613;2022-05-05;30;Santos;Google
+614;Cliente_614;2022-08-31;68;Curitiba;Instagram
+615;Cliente_615;2023-01-05;53;Porto Alegre;Facebook
+616;Cliente_616;2023-04-24;69;Porto Alegre;Google
+617;Cliente_617;2023-09-19;23;Sao Paulo;Facebook
+618;Cliente_618;2023-02-12;63;Campinas;Indicacao
+619;Cliente_619;2023-06-23;44;Santos;Indicacao
+620;Cliente_620;2024-04-23;54;Sao Paulo;Google
+621;Cliente_621;2022-11-21;59;Sao Paulo;Indicacao
+622;Cliente_622;2023-04-23;61;Porto Alegre;Facebook
+623;Cliente_623;2022-05-12;67;Porto Alegre;LinkedIn
+624;Cliente_624;2022-07-06;67;Rio de Janeiro;Indicacao
+625;Cliente_625;2023-05-30;21;Santos;Instagram
+626;Cliente_626;2023-06-15;27;Belo Horizonte;Google
+627;Cliente_627;2022-06-15;38;Campinas;Google
+628;Cliente_628;2022-12-21;51;Belo Horizonte;Instagram
+629;Cliente_629;2022-09-14;30;Campinas;LinkedIn
+630;Cliente_630;2022-10-09;26;Campinas;Facebook
+631;Cliente_631;2023-09-22;52;Sao Paulo;LinkedIn
+632;Cliente_632;2023-10-19;28;Porto Alegre;LinkedIn
+633;Cliente_633;2022-06-07;28;Campinas;LinkedIn
+634;Cliente_634;2024-01-08;56;Belo Horizonte;LinkedIn
+635;Cliente_635;2022-02-12;70;Santos;Instagram
+636;Cliente_636;2022-03-25;20;Campinas;LinkedIn
+637;Cliente_637;2022-09-29;59;Rio de Janeiro;LinkedIn
+638;Cliente_638;2023-03-03;57;Campinas;Instagram
+639;Cliente_639;2023-05-25;58;Porto Alegre;Facebook
+640;Cliente_640;2023-10-20;37;Curitiba;Google
+641;Cliente_641;2024-04-04;69;Campinas;Indicacao
+642;Cliente_642;2022-11-01;47;Sao Paulo;Instagram
+643;Cliente_643;2022-06-11;46;Curitiba;Indicacao
+644;Cliente_644;2023-04-21;31;Belo Horizonte;LinkedIn
+645;Cliente_645;2022-05-28;38;Santos;Facebook
+646;Cliente_646;2024-01-22;40;Curitiba;Google
+647;Cliente_647;2024-02-18;41;Porto Alegre;LinkedIn
+648;Cliente_648;2022-04-19;38;Rio de Janeiro;Indicacao
+649;Cliente_649;2022-05-06;35;Curitiba;Google
+650;Cliente_650;2022-05-25;24;Sao Paulo;Facebook
+651;Cliente_651;2023-01-29;57;Curitiba;Google
+652;Cliente_652;2024-06-05;28;Santos;Facebook
+653;Cliente_653;2023-08-15;64;Belo Horizonte;Google
+654;Cliente_654;2024-02-21;28;Curitiba;LinkedIn
+655;Cliente_655;2023-04-24;49;Belo Horizonte;Indicacao
+656;Cliente_656;2022-01-24;23;Curitiba;LinkedIn
+657;Cliente_657;2023-04-14;33;Rio de Janeiro;LinkedIn
+658;Cliente_658;2022-12-28;21;Sao Paulo;Facebook
+659;Cliente_659;2023-05-22;56;Santos;Indicacao
+660;Cliente_660;2022-10-20;52;Sao Paulo;Instagram
+661;Cliente_661;2023-03-18;26;Belo Horizonte;Facebook
+662;Cliente_662;2024-02-22;43;Belo Horizonte;Instagram
+663;Cliente_663;2023-02-15;21;Porto Alegre;LinkedIn
+664;Cliente_664;2022-07-19;41;Porto Alegre;Facebook
+665;Cliente_665;2022-03-17;42;Porto Alegre;Indicacao
+666;Cliente_666;2024-02-22;53;Belo Horizonte;LinkedIn
+667;Cliente_667;2023-11-28;57;Sao Paulo;Google
+668;Cliente_668;2022-04-10;43;Belo Horizonte;Facebook
+669;Cliente_669;2023-07-26;41;Santos;Google
+670;Cliente_670;2022-07-23;56;Porto Alegre;Indicacao
+671;Cliente_671;2023-05-28;20;Sao Paulo;Instagram
+672;Cliente_672;2022-05-21;63;Belo Horizonte;Indicacao
+673;Cliente_673;2023-06-16;47;Rio de Janeiro;LinkedIn
+674;Cliente_674;2023-06-12;26;Belo Horizonte;LinkedIn
+675;Cliente_675;2022-11-23;28;Curitiba;LinkedIn
+676;Cliente_676;2024-01-28;37;Porto Alegre;Facebook
+677;Cliente_677;2023-06-04;50;Porto Alegre;Indicacao
+678;Cliente_678;2023-12-27;54;Belo Horizonte;Indicacao
+679;Cliente_679;2024-04-15;19;Belo Horizonte;Facebook
+680;Cliente_680;2023-11-21;25;Curitiba;LinkedIn
+681;Cliente_681;2022-11-12;68;Campinas;Instagram
+682;Cliente_682;2023-09-04;48;Belo Horizonte;LinkedIn
+683;Cliente_683;2023-08-15;32;Campinas;Instagram
+684;Cliente_684;2023-08-21;48;Rio de Janeiro;LinkedIn
+685;Cliente_685;2023-10-07;64;Porto Alegre;Indicacao
+686;Cliente_686;2022-06-01;70;Campinas;Google
+687;Cliente_687;2022-02-02;54;Campinas;Instagram
+688;Cliente_688;2022-07-15;19;Curitiba;Facebook
+689;Cliente_689;2023-03-05;27;Curitiba;Google
+690;Cliente_690;2023-02-25;50;Santos;LinkedIn
+691;Cliente_691;2023-04-28;65;Campinas;Instagram
+692;Cliente_692;2023-12-24;26;Porto Alegre;Google
+693;Cliente_693;2023-07-29;38;Campinas;Indicacao
+694;Cliente_694;2023-06-23;42;Belo Horizonte;Google
+695;Cliente_695;2023-04-16;52;Belo Horizonte;LinkedIn
+696;Cliente_696;2022-12-29;61;Santos;Facebook
+697;Cliente_697;2023-09-17;48;Rio de Janeiro;Google
+698;Cliente_698;2022-10-13;53;Belo Horizonte;Google
+699;Cliente_699;2022-11-01;67;Belo Horizonte;Google
+700;Cliente_700;2023-12-08;63;Curitiba;Facebook
+701;Cliente_701;2023-05-07;40;Porto Alegre;Facebook
+702;Cliente_702;2022-10-22;25;Porto Alegre;LinkedIn
+703;Cliente_703;2023-01-24;43;Santos;Facebook
+704;Cliente_704;2024-03-02;69;Rio de Janeiro;Facebook
+705;Cliente_705;2022-02-13;36;Campinas;Instagram
+706;Cliente_706;2022-12-21;46;Campinas;Facebook
+707;Cliente_707;2024-02-05;48;Rio de Janeiro;Google
+708;Cliente_708;2024-04-27;52;Belo Horizonte;LinkedIn
+709;Cliente_709;2023-12-14;35;Rio de Janeiro;Instagram
+710;Cliente_710;2023-09-23;65;Porto Alegre;Google
+711;Cliente_711;2022-09-06;21;Campinas;LinkedIn
+712;Cliente_712;2022-08-20;58;Rio de Janeiro;Instagram
+713;Cliente_713;2022-04-13;44;Belo Horizonte;Indicacao
+714;Cliente_714;2022-04-13;61;Santos;Google
+715;Cliente_715;2022-01-06;53;Rio de Janeiro;Indicacao
+716;Cliente_716;2023-10-31;48;Curitiba;Google
+717;Cliente_717;2024-02-14;36;Belo Horizonte;Facebook
+718;Cliente_718;2023-10-24;21;Santos;Instagram
+719;Cliente_719;2023-10-30;54;Rio de Janeiro;LinkedIn
+720;Cliente_720;2024-01-27;64;Santos;Instagram
+721;Cliente_721;2022-06-29;44;Santos;Google
+722;Cliente_722;2022-02-07;43;Santos;Indicacao
+723;Cliente_723;2022-07-10;65;Santos;Facebook
+724;Cliente_724;2024-06-16;20;Sao Paulo;Facebook
+725;Cliente_725;2023-08-05;56;Sao Paulo;Facebook
+726;Cliente_726;2022-10-19;47;Campinas;LinkedIn
+727;Cliente_727;2023-06-21;49;Rio de Janeiro;LinkedIn
+728;Cliente_728;2023-04-25;35;Rio de Janeiro;Instagram
+729;Cliente_729;2022-12-05;28;Campinas;Indicacao
+730;Cliente_730;2023-10-26;34;Campinas;Google
+731;Cliente_731;2022-01-15;65;Belo Horizonte;Facebook
+732;Cliente_732;2023-08-05;61;Santos;Google
+733;Cliente_733;2022-06-29;57;Santos;Indicacao
+734;Cliente_734;2024-04-26;45;Porto Alegre;Facebook
+735;Cliente_735;2022-03-30;43;Campinas;Instagram
+736;Cliente_736;2022-07-09;26;Curitiba;Facebook
+737;Cliente_737;2022-09-12;18;Belo Horizonte;Indicacao
+738;Cliente_738;2022-08-30;46;Santos;Facebook
+739;Cliente_739;2022-12-04;37;Porto Alegre;LinkedIn
+740;Cliente_740;2022-01-12;34;Campinas;Facebook
+741;Cliente_741;2023-12-11;33;Sao Paulo;Instagram
+742;Cliente_742;2023-04-22;37;Rio de Janeiro;Indicacao
+743;Cliente_743;2023-12-04;50;Campinas;Facebook
+744;Cliente_744;2023-12-08;25;Campinas;Facebook
+745;Cliente_745;2023-01-12;57;Rio de Janeiro;Google
+746;Cliente_746;2022-05-17;48;Rio de Janeiro;Indicacao
+747;Cliente_747;2024-02-05;56;Belo Horizonte;Indicacao
+748;Cliente_748;2023-12-20;53;Curitiba;LinkedIn
+749;Cliente_749;2024-04-01;60;Santos;Google
+750;Cliente_750;2024-02-20;33;Campinas;LinkedIn
+751;Cliente_751;2024-06-13;68;Sao Paulo;LinkedIn
+752;Cliente_752;2023-04-03;51;Campinas;Facebook
+753;Cliente_753;2022-03-21;54;Sao Paulo;Instagram
+754;Cliente_754;2024-04-28;53;Porto Alegre;Google
+755;Cliente_755;2023-08-10;52;Rio de Janeiro;Google
+756;Cliente_756;2022-12-02;51;Curitiba;Instagram
+757;Cliente_757;2023-11-28;31;Campinas;LinkedIn
+758;Cliente_758;2023-05-16;23;Porto Alegre;Indicacao
+759;Cliente_759;2024-04-08;21;Curitiba;Google
+760;Cliente_760;2023-06-10;44;Curitiba;LinkedIn
+761;Cliente_761;2022-03-01;53;Curitiba;Facebook
+762;Cliente_762;2024-01-11;19;Curitiba;Facebook
+763;Cliente_763;2024-04-16;18;Campinas;Google
+764;Cliente_764;2023-08-16;22;Sao Paulo;Indicacao
+765;Cliente_765;2022-12-19;62;Sao Paulo;LinkedIn
+766;Cliente_766;2022-03-03;22;Curitiba;Instagram
+767;Cliente_767;2022-10-21;44;Rio de Janeiro;Google
+768;Cliente_768;2024-02-24;59;Campinas;Indicacao
+769;Cliente_769;2023-01-19;42;Curitiba;Indicacao
+770;Cliente_770;2023-01-20;23;Campinas;LinkedIn
+771;Cliente_771;2022-05-17;59;Santos;Facebook
+772;Cliente_772;2022-05-02;29;Porto Alegre;Indicacao
+773;Cliente_773;2023-06-26;26;Campinas;Google
+774;Cliente_774;2024-05-04;18;Santos;Instagram
+775;Cliente_775;2022-11-02;47;Campinas;LinkedIn
+776;Cliente_776;2023-03-11;52;Curitiba;Google
+777;Cliente_777;2022-09-11;47;Belo Horizonte;Google
+778;Cliente_778;2022-10-10;30;Campinas;Instagram
+779;Cliente_779;2022-02-02;69;Campinas;Indicacao
+780;Cliente_780;2023-09-22;67;Sao Paulo;Google
+781;Cliente_781;2022-07-31;22;Sao Paulo;LinkedIn
+782;Cliente_782;2022-02-04;46;Porto Alegre;Instagram
+783;Cliente_783;2022-09-08;65;Sao Paulo;Indicacao
+784;Cliente_784;2023-03-26;32;Porto Alegre;Google
+785;Cliente_785;2024-02-12;67;Sao Paulo;Google
+786;Cliente_786;2023-05-31;36;Rio de Janeiro;LinkedIn
+787;Cliente_787;2022-11-23;54;Porto Alegre;Facebook
+788;Cliente_788;2022-08-31;37;Rio de Janeiro;LinkedIn
+789;Cliente_789;2022-08-15;44;Belo Horizonte;Facebook
+790;Cliente_790;2022-03-04;53;Porto Alegre;Google
+791;Cliente_791;2023-10-04;61;Curitiba;LinkedIn
+792;Cliente_792;2023-05-23;21;Belo Horizonte;Indicacao
+793;Cliente_793;2024-03-15;51;Belo Horizonte;Indicacao
+794;Cliente_794;2023-02-23;27;Belo Horizonte;Indicacao
+795;Cliente_795;2022-07-08;66;Porto Alegre;Indicacao
+796;Cliente_796;2022-09-04;32;Belo Horizonte;Google
+797;Cliente_797;2024-04-05;47;Sao Paulo;LinkedIn
+798;Cliente_798;2023-02-27;44;Porto Alegre;LinkedIn
+799;Cliente_799;2022-05-18;42;Rio de Janeiro;Facebook
+800;Cliente_800;2022-07-28;39;Campinas;Instagram
+801;Cliente_801;2023-04-06;41;Sao Paulo;LinkedIn
+802;Cliente_802;2024-01-12;30;Sao Paulo;Facebook
+803;Cliente_803;2023-01-22;61;Porto Alegre;LinkedIn
+804;Cliente_804;2022-02-10;22;Rio de Janeiro;LinkedIn
+805;Cliente_805;2024-01-12;60;Porto Alegre;Google
+806;Cliente_806;2023-05-06;31;Santos;Facebook
+807;Cliente_807;2022-11-07;18;Rio de Janeiro;Google
+808;Cliente_808;2024-01-30;25;Campinas;Indicacao
+809;Cliente_809;2022-09-06;62;Porto Alegre;Google
+810;Cliente_810;2023-02-11;33;Porto Alegre;Facebook
+811;Cliente_811;2024-03-05;36;Curitiba;Indicacao
+812;Cliente_812;2023-07-01;59;Belo Horizonte;Facebook
+813;Cliente_813;2022-09-25;41;Porto Alegre;Indicacao
+814;Cliente_814;2023-04-23;24;Santos;Indicacao
+815;Cliente_815;2024-02-19;38;Rio de Janeiro;Facebook
+816;Cliente_816;2022-11-17;44;Sao Paulo;LinkedIn
+817;Cliente_817;2024-06-03;32;Campinas;Google
+818;Cliente_818;2022-01-17;34;Porto Alegre;LinkedIn
+819;Cliente_819;2023-08-17;64;Curitiba;Facebook
+820;Cliente_820;2022-06-06;30;Belo Horizonte;Google
+821;Cliente_821;2023-01-24;54;Santos;Google
+822;Cliente_822;2023-05-27;53;Campinas;Facebook
+823;Cliente_823;2022-09-21;66;Santos;Indicacao
+824;Cliente_824;2024-01-11;59;Campinas;Indicacao
+825;Cliente_825;2023-04-17;28;Campinas;Facebook
+826;Cliente_826;2022-06-23;26;Campinas;LinkedIn
+827;Cliente_827;2023-05-16;29;Porto Alegre;Instagram
+828;Cliente_828;2023-06-21;20;Santos;Instagram
+829;Cliente_829;2024-04-17;60;Sao Paulo;Instagram
+830;Cliente_830;2023-02-27;26;Santos;Google
+831;Cliente_831;2022-03-11;63;Rio de Janeiro;Instagram
+832;Cliente_832;2022-08-12;50;Curitiba;Facebook
+833;Cliente_833;2022-03-03;57;Campinas;LinkedIn
+834;Cliente_834;2023-05-10;60;Curitiba;Instagram
+835;Cliente_835;2022-01-07;52;Porto Alegre;Indicacao
+836;Cliente_836;2022-01-13;19;Porto Alegre;Facebook
+837;Cliente_837;2023-07-03;36;Sao Paulo;LinkedIn
+838;Cliente_838;2024-04-12;62;Campinas;Indicacao
+839;Cliente_839;2024-04-05;29;Sao Paulo;Instagram
+840;Cliente_840;2023-06-21;27;Rio de Janeiro;Google
+841;Cliente_841;2023-09-27;51;Belo Horizonte;Facebook
+842;Cliente_842;2022-10-01;68;Curitiba;Instagram
+843;Cliente_843;2023-01-18;43;Curitiba;LinkedIn
+844;Cliente_844;2022-09-07;62;Rio de Janeiro;Facebook
+845;Cliente_845;2023-12-02;70;Santos;Instagram
+846;Cliente_846;2023-11-01;59;Santos;Instagram
+847;Cliente_847;2022-04-06;43;Curitiba;Indicacao
+848;Cliente_848;2023-07-20;48;Sao Paulo;Instagram
+849;Cliente_849;2023-12-21;28;Sao Paulo;Indicacao
+850;Cliente_850;2024-05-15;45;Campinas;Facebook
+851;Cliente_851;2023-08-03;24;Porto Alegre;Instagram
+852;Cliente_852;2022-08-24;31;Santos;LinkedIn
+853;Cliente_853;2023-05-02;35;Sao Paulo;Instagram
+854;Cliente_854;2023-12-02;35;Porto Alegre;LinkedIn
+855;Cliente_855;2023-11-05;20;Rio de Janeiro;Facebook
+856;Cliente_856;2022-01-17;31;Porto Alegre;Google
+857;Cliente_857;2024-02-10;70;Campinas;Indicacao
+858;Cliente_858;2022-03-20;37;Rio de Janeiro;LinkedIn
+859;Cliente_859;2022-09-04;54;Santos;Indicacao
+860;Cliente_860;2023-11-25;52;Belo Horizonte;Indicacao
+861;Cliente_861;2024-02-13;65;Rio de Janeiro;Instagram
+862;Cliente_862;2023-05-28;65;Belo Horizonte;Instagram
+863;Cliente_863;2022-04-11;45;Rio de Janeiro;Instagram
+864;Cliente_864;2022-12-15;56;Santos;LinkedIn
+865;Cliente_865;2023-09-02;43;Santos;Facebook
+866;Cliente_866;2022-01-31;58;Belo Horizonte;Indicacao
+867;Cliente_867;2023-05-18;32;Belo Horizonte;LinkedIn
+868;Cliente_868;2023-01-20;45;Rio de Janeiro;LinkedIn
+869;Cliente_869;2023-11-08;42;Sao Paulo;LinkedIn
+870;Cliente_870;2022-10-30;69;Rio de Janeiro;Instagram
+871;Cliente_871;2022-03-26;35;Rio de Janeiro;Indicacao
+872;Cliente_872;2023-12-30;68;Campinas;Google
+873;Cliente_873;2024-01-28;42;Belo Horizonte;Facebook
+874;Cliente_874;2022-04-20;23;Sao Paulo;Facebook
+875;Cliente_875;2023-04-01;41;Santos;Facebook
+876;Cliente_876;2022-04-15;26;Sao Paulo;Google
+877;Cliente_877;2023-03-18;46;Porto Alegre;LinkedIn
+878;Cliente_878;2023-06-09;44;Sao Paulo;Instagram
+879;Cliente_879;2022-04-02;40;Porto Alegre;Instagram
+880;Cliente_880;2023-09-04;56;Santos;Facebook
+881;Cliente_881;2024-06-03;42;Sao Paulo;Facebook
+882;Cliente_882;2023-02-28;42;Santos;Instagram
+883;Cliente_883;2024-01-13;53;Rio de Janeiro;LinkedIn
+884;Cliente_884;2023-06-18;28;Campinas;Indicacao
+885;Cliente_885;2022-06-23;26;Belo Horizonte;Facebook
+886;Cliente_886;2022-10-02;49;Rio de Janeiro;Instagram
+887;Cliente_887;2022-06-21;45;Belo Horizonte;Indicacao
+888;Cliente_888;2022-11-03;48;Santos;Instagram
+889;Cliente_889;2023-01-05;34;Rio de Janeiro;Indicacao
+890;Cliente_890;2023-09-01;57;Rio de Janeiro;Indicacao
+891;Cliente_891;2022-04-20;26;Belo Horizonte;Instagram
+892;Cliente_892;2023-02-10;39;Santos;LinkedIn
+893;Cliente_893;2023-01-25;69;Santos;Facebook
+894;Cliente_894;2023-03-27;39;Curitiba;LinkedIn
+895;Cliente_895;2022-05-20;37;Belo Horizonte;LinkedIn
+896;Cliente_896;2023-12-13;30;Curitiba;Facebook
+897;Cliente_897;2022-07-01;43;Belo Horizonte;Facebook
+898;Cliente_898;2024-01-23;62;Campinas;Indicacao
+899;Cliente_899;2023-08-13;68;Rio de Janeiro;Facebook
+900;Cliente_900;2023-01-21;35;Santos;Indicacao
+901;Cliente_901;2023-01-09;25;Porto Alegre;Google
+902;Cliente_902;2023-08-30;52;Rio de Janeiro;LinkedIn
+903;Cliente_903;2022-01-28;64;Curitiba;Google
+904;Cliente_904;2023-03-25;69;Belo Horizonte;Instagram
+905;Cliente_905;2024-04-18;68;Santos;Indicacao
+906;Cliente_906;2023-11-21;49;Rio de Janeiro;Facebook
+907;Cliente_907;2022-09-05;34;Campinas;Google
+908;Cliente_908;2024-01-03;45;Santos;Indicacao
+909;Cliente_909;2022-03-17;46;Porto Alegre;Indicacao
+910;Cliente_910;2023-08-20;43;Porto Alegre;LinkedIn
+911;Cliente_911;2024-06-09;62;Curitiba;LinkedIn
+912;Cliente_912;2022-02-07;68;Belo Horizonte;LinkedIn
+913;Cliente_913;2023-09-01;58;Sao Paulo;Instagram
+914;Cliente_914;2024-02-27;33;Campinas;Facebook
+915;Cliente_915;2022-06-20;59;Porto Alegre;Instagram
+916;Cliente_916;2023-07-31;59;Campinas;Indicacao
+917;Cliente_917;2024-02-10;39;Santos;Indicacao
+918;Cliente_918;2022-04-19;18;Sao Paulo;Facebook
+919;Cliente_919;2022-08-16;50;Campinas;LinkedIn
+920;Cliente_920;2023-07-26;55;Campinas;LinkedIn
+921;Cliente_921;2022-08-15;46;Belo Horizonte;Indicacao
+922;Cliente_922;2023-04-20;67;Campinas;LinkedIn
+923;Cliente_923;2023-12-09;50;Rio de Janeiro;Facebook
+924;Cliente_924;2022-01-26;48;Sao Paulo;Facebook
+925;Cliente_925;2023-03-02;23;Sao Paulo;Google
+926;Cliente_926;2022-12-23;37;Belo Horizonte;Indicacao
+927;Cliente_927;2024-03-14;31;Porto Alegre;Indicacao
+928;Cliente_928;2022-12-23;48;Sao Paulo;Indicacao
+929;Cliente_929;2024-01-10;62;Curitiba;Facebook
+930;Cliente_930;2022-03-10;37;Sao Paulo;Instagram
+931;Cliente_931;2022-01-24;39;Campinas;Instagram
+932;Cliente_932;2023-11-25;69;Rio de Janeiro;Google
+933;Cliente_933;2023-06-13;29;Porto Alegre;Google
+934;Cliente_934;2022-12-05;53;Curitiba;Indicacao
+935;Cliente_935;2022-08-26;69;Curitiba;Google
+936;Cliente_936;2022-07-10;58;Campinas;Indicacao
+937;Cliente_937;2023-02-10;19;Campinas;LinkedIn
+938;Cliente_938;2022-07-22;46;Porto Alegre;Indicacao
+939;Cliente_939;2023-02-03;18;Campinas;Google
+940;Cliente_940;2022-07-30;35;Santos;Instagram
+941;Cliente_941;2023-08-15;24;Santos;LinkedIn
+942;Cliente_942;2022-07-11;41;Belo Horizonte;Google
+943;Cliente_943;2023-04-14;25;Belo Horizonte;Indicacao
+944;Cliente_944;2023-06-25;58;Belo Horizonte;LinkedIn
+945;Cliente_945;2023-02-02;57;Curitiba;LinkedIn
+946;Cliente_946;2022-04-27;40;Belo Horizonte;Indicacao
+947;Cliente_947;2023-09-25;29;Santos;Facebook
+948;Cliente_948;2023-09-22;55;Sao Paulo;Google
+949;Cliente_949;2022-11-17;25;Rio de Janeiro;Facebook
+950;Cliente_950;2022-04-30;29;Belo Horizonte;Google
+951;Cliente_951;2023-06-08;42;Curitiba;LinkedIn
+952;Cliente_952;2022-05-22;54;Curitiba;Indicacao
+953;Cliente_953;2022-07-10;49;Campinas;LinkedIn
+954;Cliente_954;2023-12-12;59;Rio de Janeiro;LinkedIn
+955;Cliente_955;2022-06-20;49;Belo Horizonte;Google
+956;Cliente_956;2022-07-11;38;Santos;Indicacao
+957;Cliente_957;2023-09-27;21;Santos;Facebook
+958;Cliente_958;2022-01-10;49;Rio de Janeiro;Google
+959;Cliente_959;2024-04-14;42;Porto Alegre;LinkedIn
+960;Cliente_960;2023-10-31;49;Curitiba;Indicacao
+961;Cliente_961;2023-03-02;63;Santos;Indicacao
+962;Cliente_962;2023-05-16;28;Sao Paulo;LinkedIn
+963;Cliente_963;2022-02-01;68;Santos;Google
+964;Cliente_964;2022-10-27;20;Belo Horizonte;Google
+965;Cliente_965;2023-07-05;36;Rio de Janeiro;Indicacao
+966;Cliente_966;2023-08-03;65;Santos;Indicacao
+967;Cliente_967;2023-07-17;50;Sao Paulo;LinkedIn
+968;Cliente_968;2022-04-27;35;Santos;LinkedIn
+969;Cliente_969;2024-04-23;41;Porto Alegre;Instagram
+970;Cliente_970;2024-02-18;64;Curitiba;LinkedIn
+971;Cliente_971;2022-08-12;45;Sao Paulo;Google
+972;Cliente_972;2022-11-01;20;Curitiba;Facebook
+973;Cliente_973;2022-12-23;70;Sao Paulo;Indicacao
+974;Cliente_974;2024-06-05;25;Santos;Google
+975;Cliente_975;2022-08-03;69;Campinas;LinkedIn
+976;Cliente_976;2023-12-07;40;Santos;LinkedIn
+977;Cliente_977;2023-10-10;45;Rio de Janeiro;LinkedIn
+978;Cliente_978;2022-05-23;68;Rio de Janeiro;Google
+979;Cliente_979;2024-04-04;21;Porto Alegre;Facebook
+980;Cliente_980;2023-06-30;35;Porto Alegre;LinkedIn
+981;Cliente_981;2022-06-22;38;Campinas;Facebook
+982;Cliente_982;2022-10-24;54;Belo Horizonte;LinkedIn
+983;Cliente_983;2023-11-27;70;Sao Paulo;Google
+984;Cliente_984;2024-02-08;68;Curitiba;Instagram
+985;Cliente_985;2022-10-11;59;Rio de Janeiro;Google
+986;Cliente_986;2022-09-13;27;Campinas;Facebook
+987;Cliente_987;2024-04-28;33;Santos;Indicacao
+988;Cliente_988;2023-05-17;27;Porto Alegre;Facebook
+989;Cliente_989;2023-10-05;44;Curitiba;Indicacao
+990;Cliente_990;2022-03-19;58;Santos;Instagram
+991;Cliente_991;2023-02-17;50;Campinas;Facebook
+992;Cliente_992;2023-12-13;41;Curitiba;Indicacao
+993;Cliente_993;2022-12-02;55;Sao Paulo;Instagram
+994;Cliente_994;2024-01-19;47;Campinas;Facebook
+995;Cliente_995;2024-05-20;22;Santos;LinkedIn
+996;Cliente_996;2023-02-12;31;Curitiba;Google
+997;Cliente_997;2023-05-22;35;Belo Horizonte;Facebook
+998;Cliente_998;2022-12-12;53;Porto Alegre;Google
+999;Cliente_999;2023-08-03;49;Santos;Facebook
+1000;Cliente_1000;2023-11-30;66;Sao Paulo;Instagram
