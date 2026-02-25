@@ -143,6 +143,9 @@ Boas práticas de arquitetura e versionamento
  Autor
 
 Lucas Sangiorge
-Analista de Dados em formação
-Experiência em gestão, logística e suporte técnico
-Foco em SQL, Python, Power BI e Engenharia Analítica
+Tel (31)99491-2856
+email:lucas.sangiorge@gmail.com
+linkedin: https://www.linkedin.com/in/lucas-sangiorge/
+Analista de Dados 
+Foco em SQL, Python, BI e Análise de dados
+
