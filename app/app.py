@@ -1,59 +1,114 @@
+# ========================
+# CONFIG (SEMPRE PRIMEIRO)
+# ========================
 import streamlit as st
+st.set_page_config(
+    page_title="Dashboard E-commerce",
+    layout="wide"
+)
+
+# ========================
+# IMPORTS
+# ========================
 import pandas as pd
-import sys
-import os
+import mysql.connector
 
-# Import do projeto
-sys.path.append(os.path.abspath("../python"))
-from db_connection import get_connection
-
-st.set_page_config(page_title="Dashboard E-commerce", layout="wide")
-st.title("📊 Dashboard E-commerce")
-
-conn = get_connection()
-
-# ---- Carregar dados da Gold
-df_faturamento = pd.read_sql(
-    "SELECT * FROM vw_faturamento_mensal_gold",
-    conn
+# ========================
+# CONEXÃO
+# ========================
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="901012",
+    database="e_commerce"
 )
 
-df_ticket = pd.read_sql(
-    "SELECT * FROM vw_ticket_medio_gold",
-    conn
+# ========================
+# QUERY GOLD (ou SILVER)
+# ========================
+query = """
+SELECT
+    p.data_pedido,
+    pr.nome_produto,
+    i.quantidade,
+    i.preco_unitario,
+    (i.quantidade * i.preco_unitario) AS valor_total
+FROM pedidos_silver p
+JOIN itens_pedido_silver i ON p.pedido_id = i.pedido_id
+JOIN produtos_silver pr ON i.produto_id = pr.produto_id
+"""
+
+df = pd.read_sql(query, conn)
+
+# ========================
+# TRATAMENTO
+# ========================
+df["data_pedido"] = pd.to_datetime(df["data_pedido"])
+df["ano"] = df["data_pedido"].dt.year
+df["mes"] = df["data_pedido"].dt.month
+df["nome_produto"] = df["nome_produto"].str.strip()
+
+# ========================
+# SIDEBAR - FILTROS
+# ========================
+st.sidebar.header("🎯 Filtros")
+
+ano_sel = st.sidebar.selectbox(
+    "Ano",
+    sorted(df["ano"].unique())
 )
 
-df_top_produtos = pd.read_sql(
-    "SELECT * FROM vw_top_produtos_gold",
-    conn
+mes_sel = st.sidebar.selectbox(
+    "Mês",
+    sorted(df[df["ano"] == ano_sel]["mes"].unique())
 )
 
-# ---- KPIs
+produto_sel = st.sidebar.multiselect(
+    "Produto",
+    df["nome_produto"].unique(),
+    default=df["nome_produto"].unique()
+)
+
+# ========================
+# APLICAR FILTROS
+# ========================
+df_filtrado = df[
+    (df["ano"] == ano_sel) &
+    (df["mes"] == mes_sel) &
+    (df["nome_produto"].isin(produto_sel))
+]
+
+# ========================
+# DASHBOARD
+# ========================
+st.title("📊 Dashboard de Vendas")
+
 col1, col2, col3 = st.columns(3)
 
 col1.metric(
-    "💰 Faturamento Total",
-    f"R$ {df_ticket['faturamento_total'][0]:,.2f}"
+    "💰 Faturamento",
+    f"R$ {df_filtrado['valor_total'].sum():,.2f}"
 )
 
 col2.metric(
-    "🧾 Total de Pedidos",
-    int(df_ticket['total_pedidos'][0])
+    "📦 Quantidade Vendida",
+    int(df_filtrado["quantidade"].sum())
 )
 
 col3.metric(
-    "🎯 Ticket Médio",
-    f"R$ {df_ticket['ticket_medio'][0]:,.2f}"
+    "🧾 Registros",
+    df_filtrado.shape[0]
 )
 
-st.divider()
+st.subheader("Faturamento por Produto")
 
-# ---- Gráfico de faturamento
-st.subheader("📈 Faturamento Mensal")
-st.line_chart(
-    df_faturamento.set_index("mes")["faturamento"]
+faturamento_produto = (
+    df_filtrado
+    .groupby("nome_produto")["valor_total"]
+    .sum()
+    .reset_index()
 )
 
-# ---- Tabela Top Produtos
-st.subheader("🏆 Top Produtos")
-st.dataframe(df_top_produtos.head(10))
+st.bar_chart(
+    faturamento_produto.set_index("nome_produto")
+)

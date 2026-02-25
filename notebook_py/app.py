@@ -3,6 +3,7 @@ import pandas as pd
 import sys
 import os
 
+
 # Import do projeto
 sys.path.append(os.path.abspath("../python"))
 from db_connection import get_connection
